@@ -37,11 +37,9 @@ Simply double-click the Conectar.bat file included in the folder. It will bypass
 
 ### Option 2: Via Terminal
 
-Open PowerShell.
-
-Navigate to the directory where the script is located.
-
-Run the following command:
+- Open PowerShell.
+- Navigate to the directory where the script is located.
+- Run the following command:
 
 ```powershell
     .\aws.ps1
