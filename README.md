@@ -10,10 +10,10 @@ This PowerShell script allows you to connect to an AWS EC2 instance using SSH wi
 
 ## Installation & Setup
 
-1. Download the .zip file from Gumroad [(Get it for $0+ here)](https://pablosoft.gumroad.com/l/vxvxs)
-2. Extract the downloaded `.zip` file to any folder on your local machine.
-3. Open the `config.ini` file and configure your credentials (see the Configuration section below).
-4. Ensure your private key file (`.pem` / `.key`) is accessible.
+1. **Download the files:** Click on the green **Code** button above and select **Download ZIP**, or clone this repository.
+2. **Extract the folder:** Extract the contents to any directory on your local machine.
+3. **Configure your credentials:** Open the `config.ini` file and set your data (see the Configuration section below).
+4. **Key access:** Ensure your private key file (`.pem` / `.key`) is accessible.
 
 ## Configuration
 
@@ -22,10 +22,10 @@ The `config.ini` file must contain the following variables:
 ```ini
 user = your_ec2_username
 hostName = your_instance_ip_or_dns
-keyPath = C:\path\to\your\private_key.pem
+keyPath = C:/path/to/your/private_key.pem
 ```
 
-Note: Make sure there are spaces around the = sign so the script parses the data correctly.
+⚠️ Note: Make sure there are spaces around the = sign so the script parses the data correctly.
 
 ## Usage
 
@@ -33,7 +33,7 @@ You can launch the connector in two different ways:
 
 ### Option 1: The Quick Double-Click (Recommended)
 
-Simply double-click the Conectar.bat file included in the folder. It will bypass execution policies and launch the SSH session instantly.
+Simply double-click the connect.bat file included in the folder. It will bypass execution policies and launch the SSH session instantly.
 
 ### Option 2: Via Terminal
 
@@ -42,10 +42,10 @@ Simply double-click the Conectar.bat file included in the folder. It will bypass
 - Run the following command:
 
 ```powershell
-    .\aws.ps1
+.\aws.ps1
 ```
 
-Developed with ♥️♥️♥️ by Felpondo Computers.
+Developed with ♥️ by Felpondo Computers.
 
 ## License
 
