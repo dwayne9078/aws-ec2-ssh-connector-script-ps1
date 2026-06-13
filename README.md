@@ -46,3 +46,7 @@ Simply double-click the Conectar.bat file included in the folder. It will bypass
 ```
 
 Developed with ♥️♥️♥️ by Felpondo Computers.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
